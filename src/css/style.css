@@ -17,7 +17,7 @@ body {
 }
 
 button {
-  background: #7a7d8e;
+  background: black;
   color: #f7f9fa;
   border-radius: 4px;
   padding: 8px 24px;
@@ -28,7 +28,7 @@ button {
 }
 
 button:hover {
-  background: #5c5f70;
+  background: #1f1f20;
 }
 
 .disabled {
@@ -52,6 +52,7 @@ button:hover {
   border-radius: 4px;
   box-shadow: 0 25px 50px rgb(33 33 33 / 25%);
   background: linear-gradient(135deg, #a1c4fd 0%, #ffa07a 50%, #83d1ff 100%);
+  /* background: rgb(33, 23, 23); */
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   backface-visibility: hidden;
 }
@@ -137,4 +138,13 @@ button:hover {
 /* акцентный текст */
 .highlight {
   color: #e5a290;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  background: #7a7d8e !important;
 }

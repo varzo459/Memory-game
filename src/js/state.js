@@ -9,4 +9,11 @@ export const STATE = {
   flippedCards: 0,
   /* Кол-во совпавших карточек */
   foundPairs: 0,
+  /* Блокировка поля во время проверки карточек */
+  isBlocked: false,
+  /* Первая перевернутая карточка */
+  firstCard: null,
+  /* Вторая перевернутая карточка */
+  secondCard: null
 };
+
